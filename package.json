@@ -1,7 +1,7 @@
 {
   "name": "ugly-accent-app",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +9,49 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~50.0.6",
-    "expo-status-bar": "~1.11.1",
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-navigation/material-top-tabs": "^6.6.6",
+    "@react-navigation/native": "^6.1.10",
+    "@supabase/supabase-js": "^2.39.3",
+    "@tanstack/react-query": "^5.22.2",
+    "base64-arraybuffer": "^1.0.2",
+    "dayjs": "^1.11.10",
+    "expo": "^48.0.7",
+    "expo-auth-session": "~4.0.3",
+    "expo-crypto": "~12.2.1",
+    "expo-device": "~5.2.1",
+    "expo-file-system": "~15.2.2",
+    "expo-font": "~11.1.1",
+    "expo-image": "~1.0.2",
+    "expo-image-picker": "~14.1.1",
+    "expo-linking": "~4.0.1",
+    "expo-router": "^1.2.0",
+    "expo-secure-store": "~12.1.1",
+    "expo-splash-screen": "~0.18.1",
+    "expo-status-bar": "~1.4.2",
+    "expo-web-browser": "~12.1.1",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-dom": "18.2.0",
+    "react-native": "0.71.14",
+    "react-native-dotenv": "^3.4.8",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-pager-view": "6.1.2",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
+    "react-native-tab-view": "^3.5.2",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "~0.18.7",
+    "twrnc": "^3.6.4",
+    "expo-notifications": "~0.18.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
+  },
+  "overrides": {
+    "metro": "^0.76.0",
+    "metro-resolver": "^0.76.0"
   },
   "private": true
 }
